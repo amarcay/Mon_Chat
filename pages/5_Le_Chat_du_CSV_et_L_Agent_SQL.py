@@ -59,7 +59,7 @@ if uploaded_file is not None:
                 
                 # Afficher le prompt pour les questions
                 if prompt := st.chat_input("Posez une question sur votre CSV"):
-                    st.session_state.messages_CSV.append({"role": "user", "content": prompt})
+                    st.session_state.messages_Agent_SQL.append({"role": "user", "content": prompt})
                     st.chat_message("user").write(prompt)
                     
                     # Stockés les données du csv dans un DB
@@ -96,7 +96,7 @@ if uploaded_file is not None:
                         full_response += chunk
                         response_placeholder.chat_message("assistant").write(full_response)
                     
-                    st.session_state.messages_CSV.append({"role": "assistant", "content": full_response})
+                    st.session_state.messages_Agent_SQL.append({"role": "assistant", "content": full_response})
         except pd.errors.EmptyDataError:
             st.error("Erreur: Le fichier CSV ne contient aucune donnée lisible.")
         except Exception as e:
