@@ -29,6 +29,8 @@ L'application est construite avec :
   - LangChain pour l'intégration IA
   - ChromaDB pour le stockage vectoriel
   - SQLAlchemy pour la gestion des données CSV
+  - LangSmith pour la gestion et l'orchestration des flux de travail IA, permettant de créer, déployer et surveiller des pipelines d'IA complexes
+
 
 ## 📋 Prérequis
 
