@@ -1,0 +1,17 @@
+streamlit==1.32.0
+pandas==2.2.1
+chardet==5.2.0
+langchain==0.1.12
+langchain-community==0.0.27
+langchain-core==0.1.32
+langchain-experimental==0.0.52
+langchain-ollama==0.0.3
+langchain-huggingface==0.0.10
+langchain-chroma==0.0.10
+crewai==0.16.0
+crewai-tools==0.0.20
+pymupdf==1.24.0
+sqlalchemy==2.0.28
+chromadb==0.4.24
+sentence-transformers==2.5.1
+ollama==0.1.6 
