@@ -1,6 +1,6 @@
 # MonChat - Application de Chat IA Multimodale
 
-MonChat est une application web interactive permettant d'interagir avec différents types de contenu (PDF, CSV, sites web) à travers une interface de chat utilisant l'Intelligence Artificielle.
+MonChat est une application web interactive que j’ai mise en place en tant qu’étudiant pour explorer le fonctionnement des RAG, des agents IA et de Docker. Elle permet d’interagir avec différents types de contenu (PDF, CSV) via une interface de chat exploitant l’Intelligence Artificielle.
 
 ## 🎯 Objectif
 
